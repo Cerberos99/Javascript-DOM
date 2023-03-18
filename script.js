@@ -9,11 +9,11 @@ let imputfield = document.getElementById("inputField");
 
 //Event listener toiminnalisuudelle- luo uuden sarakkeen aina elementille
 // tehtäessä määritelty (codeDuck)
-addToDoButton.addEventListener("click", function(){
+addToDoButton.addEventListener("click", function () {
     var paragraph = document.createElement("p");
     paragraph.classList.add("paragraph-styling");
     paragraph.innerText = imputfield.value;
-    
+
     //Lisää annetun arvon (codeDuck)
     toDoContainer.appendchild(paragraph);
 
@@ -21,11 +21,11 @@ addToDoButton.addEventListener("click", function(){
     imputfield.value = "";
 
     // Kuittaa annetun arvon, kun klikataan kerran (codeDuck)
-    paragraph.addEventListener("click", function(){
+    paragraph.addEventListener("click", function () {
         paragraph.style.textDecoration = "line-through";
     })
-      // Poistaa annetun arvon tuplaklikillä (codeDuck)
-      paragraph.addEventListener("dblclick", function(){
+    // Poistaa annetun arvon tuplaklikillä (codeDuck)
+    paragraph.addEventListener("dblclick", function () {
         paragraph.removeChild(paragraph);
-      })
+    })
 })
