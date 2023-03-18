@@ -22,4 +22,4 @@ Sovelluksen CSS- ja JavaScript-koodi tulee olla määritelty ulkoisessa tiedosto
 
 Listan tiedot tallennetaan selaimeen, esim. localstorageen
 
-# Sovelluksen pohjaksi kopioitiin yksinkertainen vanha oma projekti, joka sisälsi alkuun index sivun taulukolla ja CSS tiedoston. Näistä muokattiin tehtävän annon mukainen pohja ja lisättiin pyydetty toiminnallisuus
+Sovelluksen pohjaksi kopioitiin yksinkertainen vanha oma projekti, joka sisälsi alkuun index sivun taulukolla ja CSS tiedoston. Näistä muokattiin tehtävän annon mukainen pohja ja lisättiin pyydetty toiminnallisuus.
