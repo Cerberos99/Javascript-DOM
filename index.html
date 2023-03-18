@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>HTML basics</title>
+        <link rel="stylesheet" href="styletable.css">
+    </head>
+
+    <!--table, tr, th ja td elements. 
+        Use (colspan/rowspan) to combine cells. 
+        Add at least 5 rows and 3 columns of data. -->
+
+        <table>
+            <caption><h1>Tämä on taulukko jossa on rivejä ja sarakkeita</h1></caption>
+            <tr>    
+                <th rowspan="6">sivuotsikko</th>
+                <th colspan="2">yläotsikko</th>
+                <th>Toinen yläotsikko</th>
+                <th>kolmas yläotsikko </th>
+                
+            </tr>
+
+            <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+            <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+            <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+            <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+            <tr>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+        </table>
+    
+   
+    <form>
+    <fieldset>
+    <legend>Yhteydenottokaavake:</legend>
+
+<br>
+    </form action="">
+    <label for="nimi">Etunimi:</label><br>
+    <input type="text" id="name" name="name" required >
+    <br>
+    <label for="nimi">Sukunimi:</label><br>
+    <input type="text" id="name" name="name" required >
+    <br>
+    <label for="nimi">Sähköpostiosoite:</label><br>
+    <input type="text" id="name" name="name" required >
+    <br>
+<textarea id="tekstialue" name="tekstialue" rows="4" cols="80">
+    Vapaa kommentti 
+    </textarea>
+
+<br>
+
+<label for="nimi">Haluan tilata uutiskirjeen:</label>
+<input type="checkbox" id="postituslista" name="postituslista" required >
+<br>
+
+<label for="valitse">Mikä on paras osa formia:</label>
+<select id="valitse" name="valitse">
+<option value="Checkbox">Checkbox</option>
+<option value="text">Tekstikenttä</option>
+<option value="Radio">Radiobutton</option>
+<option value="Select">Select elementti</option>
+</select>
+<br>
+
+<input type="submit"></input>
+
+</fieldset>     
+      
+    </form>
+
+	 </body>
+</html>
