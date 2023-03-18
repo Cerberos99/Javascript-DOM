@@ -1,19 +1,38 @@
-body{
+html, body{
     background-color: rgb(244, 245, 250);
     color: rgb(5, 5, 5);
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-table{
-    border-collapse: collapse;
-    width: 100%;
+.container {
+width: 400px;
+
 }
 
-td, th{
-    border: 1px solid rgb(1, 1, 20);
-    text-align: center;
-    padding: 10px;
+#inputField{
+    width: 400px;
+    height: 50px;
+    vertical-align: middle;
+    font-size: 25px;
 }
 
-tr:nth-child(even) {
-    background-color: rgb(233, 231, 231);
+#addToDo{
+    height: 50px;
+    width: 50px;
+    border: 1px;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.to-Do{
+    margin-top: 30px;
+}
+
+.paragraph-styling{
+    margin:0;
+    cursor: pointer;
+    font-size: 25px;
 }

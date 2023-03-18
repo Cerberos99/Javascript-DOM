@@ -1,99 +1,28 @@
 <!DOCTYPE html>
-<html>
-
+<html lang = "fi">
     <head>
 
         <meta charset="utf-8">
-        <title>HTML basics</title>
+
+        <title>To-DO-List</title>
+
         <link rel="stylesheet" href="styletable.css">
+        <script src="script.js" defer></script> 
+        <!--Javascrip linkki luotu annettujen meteriaalien perusteella, katsomalla mallia mdn webdoxin ohjeista-->
     </head>
+<body> 
 
-    <!--table, tr, th ja td elements. 
-        Use (colspan/rowspan) to combine cells. 
-        Add at least 5 rows and 3 columns of data. -->
+         <h1>To-do -lista</h1>
+        
+          <!-- Div classit container & todo perus rakenteeseen saatiin malli youtube
+            vidosta "to Do List | Javascript Beginner Project Tutorial". CodeDuck https://www.youtube.com/watch?v=-pRg_daFjfk 
+            Käytetty perus listan rakentamiseen HTML, CSS ja JS-->
+         <div class="container">
+            <input id="inputField" type="text"> <button id="addToDo">+</button>
+            <div class = "to-Do" id ="toDoContainer">
+             </div>
+            </div>
 
-        <table>
-            <caption><h1>Todo -lista</h1></caption>
-            <tr>    
-                <th rowspan="6">sivuotsikko</th>
-                <th colspan="2">yläotsikko</th>
-                <th>Toinen yläotsikko</th>
-                <th>kolmas yläotsikko </th>
-                
-            </tr>
-
-            <tr>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-            </tr>
-            <tr>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-            </tr>
-            <tr>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-            </tr>
-            <tr>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-            </tr>
-            <tr>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-                <td>data</td>
-            </tr>
-        </table>
-    
-   
-    <form>
-    <fieldset>
-    <legend>Yhteydenottokaavake:</legend>
-
-<br>
-    </form action="">
-    <label for="nimi">Etunimi:</label><br>
-    <input type="text" id="name" name="name" required >
-    <br>
-    <label for="nimi">Sukunimi:</label><br>
-    <input type="text" id="name" name="name" required >
-    <br>
-    <label for="nimi">Sähköpostiosoite:</label><br>
-    <input type="text" id="name" name="name" required >
-    <br>
-<textarea id="tekstialue" name="tekstialue" rows="4" cols="80">
-    Vapaa kommentti 
-    </textarea>
-
-<br>
-
-<label for="nimi">Haluan tilata uutiskirjeen:</label>
-<input type="checkbox" id="postituslista" name="postituslista" required >
-<br>
-
-<label for="valitse">Mikä on paras osa formia:</label>
-<select id="valitse" name="valitse">
-<option value="Checkbox">Checkbox</option>
-<option value="text">Tekstikenttä</option>
-<option value="Radio">Radiobutton</option>
-<option value="Select">Select elementti</option>
-</select>
-<br>
-
-<input type="submit"></input>
-
-</fieldset>     
-      
-    </form>
 
 	 </body>
 </html>
