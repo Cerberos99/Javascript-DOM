@@ -1,5 +1,5 @@
 # Javascript-DOM
-# Tämä on Javascrip kurssin ensimmäinen tehtä DOM-skriptaus. Tehtävän antona on luoda to-do lista
+# Tämä on Javascrip kurssin ensimmäinen tehtävä, DOM-skriptaus. Tehtävän antona on luoda to-do lista
 
 Vaatimuksina listalle on:
 Vain "natiivi" JavaScriptiä, ei käytetä ulkoisia kirjastoja  (JQuery tms.)
