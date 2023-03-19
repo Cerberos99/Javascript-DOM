@@ -23,3 +23,6 @@ Sovelluksen CSS- ja JavaScript-koodi tulee olla määritelty ulkoisessa tiedosto
 Listan tiedot tallennetaan selaimeen, esim. localstorageen
 
 Sovelluksen pohjaksi kopioitiin yksinkertainen vanha oma projekti, joka sisälsi alkuun index sivun taulukolla ja CSS tiedoston. Näistä muokattiin tehtävän annon mukainen pohja ja lisättiin pyydetty toiminnallisuus.
+
+Lähteet:
+To Do List | Javascript Beginner Project Tutorial, Codeduck, viitattu 19.3.2023, https://www.youtube.com/watch?v=-pRg_daFjfk 

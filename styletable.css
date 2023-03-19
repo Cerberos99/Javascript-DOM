@@ -1,11 +1,7 @@
-html,
-body {
-    background-color: rgb(244, 245, 250);
-    color: rgb(5, 5, 5);
+html, body {
     width: 50%;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .container {
@@ -15,7 +11,7 @@ body {
 
 #inputField {
     width: 400px;
-    height: 50px;
+    height: 40px;
     vertical-align: middle;
     font-size: 25px;
 }
@@ -35,5 +31,5 @@ body {
 .paragraph-styling {
     margin: 0;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 20px;
 }

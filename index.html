@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="fi">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta name = "todolista" content="width-device-width, initiaö-scale-1.0">
 
     <title>To-DO-List</title>
 
     <link rel="stylesheet" href="styletable.css" />
-    <script src="script.js" defer></script>
+   
     <!--Javascrip linkki luotu annettujen meteriaalien perusteella, katsomalla mallia mdn webdoxin ohjeista-->
   </head>
   <body>
+   <!--<main>  --> 
     <h1>To-do -lista</h1>
-
+<form>
     <!-- Div classit container & todo perus rakenteeseen saatiin malli youtube
             vidosta "to Do List | Javascript Beginner Project Tutorial". CodeDuck https://www.youtube.com/watch?v=-pRg_daFjfk 
             Käytetty perus listan rakentamiseen HTML, CSS ja JS-->
     <div class="container">
-      <input id="inputField" type="text" /> <button id="addToDo">+</button>
-      <div class="to-Do" id="toDoContainer"></div>
-    </div>
+      <input id="inputField" type="text" >  <button id="addToDo"> + </button>
+      <div class="to-Do" id="toDoContainer">
+         </div>
+      </div>
+
+      <script src="script.js" defer></script>
+</form>
+    
+<!--</main>-->
+      
+    
+    
   </body>
 </html>

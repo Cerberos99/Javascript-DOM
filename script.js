@@ -5,20 +5,20 @@ let addToDoButton = document.getElementById("addToDo");
 let toDoContainer = document.getElementById("toDoContainer");
 
 //Haetaan elementti (codeDuck)
-let imputfield = document.getElementById("inputField");
+let imputField = document.getElementById("inputField");
 
 //Event listener toiminnalisuudelle- luo uuden sarakkeen aina elementille
 // tehtäessä määritelty (codeDuck)
 addToDoButton.addEventListener("click", function () {
     var paragraph = document.createElement("p");
     paragraph.classList.add("paragraph-styling");
-    paragraph.innerText = imputfield.value;
+    paragraph.innerText = imputField.value;
 
     //Lisää annetun arvon (codeDuck)
     toDoContainer.appendchild(paragraph);
 
     //"tyhjentää" syöttökentän (CodeDuck)
-    imputfield.value = "";
+   // imputField.value = "";
 
     // Kuittaa annetun arvon, kun klikataan kerran (codeDuck)
     paragraph.addEventListener("click", function () {
